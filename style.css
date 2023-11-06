@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'gt walsheim pro';
+    src: url('../socialogy.xyz/fonts/GTWalsheimPro-Regular.woff2') format('woff2'),
+            url('../socialogy.xyz/fonts/GTWalsheimPro-Regular.woff') format('woff');
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'gt walsheim pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'gt walsheim pro', sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.li > a {
+    background-color: #fff;
+}
+
